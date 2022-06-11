@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Ministério</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add("js");</script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="grid-4">
+          <img src="img/church.svg" alt="Logo">
+        </a>
+        <nav class="grid-12 header_menu">
+          <ul>
+            <li><a href="signin.html" class="menu_ativo">Entrar</a></li>
+            <li><a href="signup.html">Cadastro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="introducao signin">
+      <div class="container">
+        <h1 data-anime="400" class="fadeInDown">Login</h1>
+        <form id="form_signin" method="post" class="signin_form grid-6" action="page.html"></form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <a data-anime="800" href="home.html" class="btn">Entrar</a>
+      </div>
+    </section>
+
+    
+    <footer>
+      <div class="footer">
+        <div class="container">
+
+          <div class="grid-8 footer_historia">
+            <h3>Nossa História</h3>
+            <p>"Eu vou falar mais de Deus e menos de mim. Eu não vou falar nada do outro a não ser para o outro e para sua edificação."</p>
+          </div>
+
+          <div class="grid-4 footer_contato">
+            <h3>Contato</h3>
+            <ul>
+              <li>- 61 23232-4343</li>
+              <li>- contato@ministerio.com</li>
+              <li>- Brasília</li>
+            </ul>
+          </div>
+
+          <div class="grid-4 footer_redes">
+            <h3>Contato</h3>
+            <ul>
+              <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+              <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+              <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container">
+          <p class="grid-16">"Eis que faço novas todas as coisas".</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>
