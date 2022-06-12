@@ -19,18 +19,7 @@
     <script>document.documentElement.classList.add("js");</script>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <a href="index.html" class="grid-4">
-          <img src="assets/church.svg" alt="Logo">
-        </a>
-        <nav class="grid-12 header_menu">
-          <ul>
-            <li><a href="../src/pages/signin.html">Cadastro</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <%= require('html-loader!../src/templates/partials/header.html').default %>
 
     <section class="introducao">
       <div class="container">
@@ -106,42 +95,6 @@
       </blockquote>
     </div>
 
-    <footer>
-      <div class="footer">
-        <div class="container">
-
-          <div class="grid-8 footer_historia">
-            <h3>Nossa História</h3>
-            <p>"Eu vou falar mais de Deus e menos de mim. Eu não vou falar nada do outro a não ser para o outro e para sua edificação."</p>
-          </div>
-
-          <div class="grid-4 footer_contato">
-            <h3>Contato</h3>
-            <ul>
-              <li>- 61 23232-4343</li>
-              <li>- contato@ministerio.com</li>
-              <li>- Brasília</li>
-            </ul>
-          </div>
-
-          <div class="grid-4 footer_redes">
-            <h3>Contato</h3>
-            <ul>
-              <li><a href="http://facebook.com" target="_blank"><img src="assets/redes-sociais/facebook.svg" alt="Facebook"></a></li>
-              <li><a href="http://instagram.com" target="_blank"><img src="assets/redes-sociais/instagram.svg" alt="Instagram"></a></li>
-              <li><a href="http://twitter.com" target="_blank"><img src="assets/redes-sociais/twitter.svg" alt="Twitter"></a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="copy">
-        <div class="container">
-          <p class="grid-16">"Eis que faço novas todas as coisas".</p>
-        </div>
-      </div>
-    </footer>
-
+    <%= require('html-loader!../src/templates/partials/footer.html').default %>
   </body>
 </html>
