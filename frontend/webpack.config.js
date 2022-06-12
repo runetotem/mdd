@@ -12,12 +12,11 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, 'public'),
-
   },
   plugins: [
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({ // TODO: Organizar templates - https://github.com/jantimon/html-webpack-plugin#generating-multiple-html-files
       template: path.resolve(__dirname, 'public', 'index.html')
-    })
+    }),
   ],
   module: {
     rules: [
@@ -25,7 +24,7 @@ module.exports = {
         test: /\.css$/,
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader'],
-      }
+      },
     ]
   }
 
