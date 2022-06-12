@@ -9,27 +9,24 @@
     <meta property="og:title" content="Ministério"/>
     <meta property="og:description" content="Esta igreja tem seu foco em famílias, na Palavra e em missões. Venha nos visitar!"/>
     <meta property="og:url" content="http://ministerio.com"/>
-    <meta property="og:image" content="http://ministerio.com/img/og-image.png"/>
+    <meta property="og:image" content="http://ministerio.com/assets/og-image.png"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="../src/css/style.css" type="text/css"> -->
     <script>document.documentElement.classList.add("js");</script>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4">
-          <img src="img/church.svg" alt="Logo">
+          <img src="assets/church.svg" alt="Logo">
         </a>
         <nav class="grid-12 header_menu">
           <ul>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="produtos.html">Cadastro</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="../src/pages/signin.html">Cadastro</a></li>
           </ul>
         </nav>
       </div>
@@ -42,7 +39,6 @@
           <p>"Quanto mais do céu existe em nossas vidas, menos da terra cobiçaremos."</p>
           <cite>CHARLES SPURGEON</cite>
         </blockquote>
-        <a data-anime="1200" href="sobre.html" class="btn">Sobre</a>
       </div>
     </section>
 
@@ -52,7 +48,7 @@
 
         <li class="grid-1-3">
           <div class="produtos_icone">
-            <img src="img/produtos/passeio.svg" alt="Icone crianças">
+            <img src="assets/produtos/passeio.svg" alt="Icone crianças">
           </div>
           <h3>Crianças</h3>
           <p>Possuímos salinhas para crianças durante a pregação.</p>
@@ -60,7 +56,7 @@
 
         <li class="grid-1-3">
           <div class="produtos_icone">
-            <img src="img/produtos/esporte.svg" alt="Bikcraft Passeio">
+            <img src="assets/produtos/esporte.svg" alt="Bikcraft Passeio">
           </div>
           <h3>Jovens</h3>
           <p>A igreja tem o departamento de jovens, venha pertencer ao deck.</p>
@@ -68,7 +64,7 @@
 
         <li class="grid-1-3">
           <div class="produtos_icone">
-            <img src="img/produtos/retro.svg" alt="Bikcraft Passeio">
+            <img src="assets/produtos/retro.svg" alt="Bikcraft Passeio">
           </div>
           <h3>Adultos</h3>
           <p>Temos diversos outros departamentos para os mais velhos.</p>
@@ -84,24 +80,9 @@
     </section>
     <!-- Fecha Produtos -->
 
-    <section class="portfolio">
-      <div class="container">
-        <h2 class="subtitulo">Confira</h2>
-        <ul class="portfolio_lista">
-          <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
-          <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
-          <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
-        </ul>
-        <div class="call">
-          <p>conheça mais o nosso portfólio fotográfico</p>
-          <a href="portfolio.html" class="btn">Portfólio</a>
-        </div>
-      </div>
-    </section>
-
     <section class="qualidade container">
       <h2 class="subtitulo">Valores</h2>
-      <img src="img/church.svg" alt="ministerio">
+      <img src="assets/church.svg" alt="ministerio">
       <ul class="qualidade_lista">
         <li class="grid-1-3">
           <h3>Família</h3>
@@ -116,10 +97,6 @@
           <p>Focamos em missões, apoiamos pessoas ao redor do mundo.</p>
         </li>
       </ul>
-      <div class="call">
-        <p>conheça mais a nossa história</p>
-        <a href="sobre.html" class="btn btn-preto">Sobre</a>
-      </div>
     </section>
 
     <div class="quebra">
@@ -150,9 +127,9 @@
           <div class="grid-4 footer_redes">
             <h3>Contato</h3>
             <ul>
-              <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
-              <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
-              <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+              <li><a href="http://facebook.com" target="_blank"><img src="assets/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+              <li><a href="http://instagram.com" target="_blank"><img src="assets/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+              <li><a href="http://twitter.com" target="_blank"><img src="assets/redes-sociais/twitter.svg" alt="Twitter"></a></li>
             </ul>
           </div>
 
@@ -165,9 +142,6 @@
         </div>
       </div>
     </footer>
-
-    <script src="./js/simple-anime.js"></script>
-    <script src="./js/script.js"></script>
 
   </body>
 </html>

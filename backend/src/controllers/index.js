@@ -1,3 +1,4 @@
+const AppError = require('../utils/appError')
 const conn = require("../services/db");
 
 exports.index = (req, res, next) => {
