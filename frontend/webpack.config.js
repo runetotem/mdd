@@ -17,6 +17,14 @@ module.exports = {
     new HtmlWebpackPlugin({ // TODO: Organizar templates - https://github.com/jantimon/html-webpack-plugin#generating-multiple-html-files
       template: path.resolve(__dirname, 'public', 'index.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'signin.html',
+      template: path.resolve(__dirname, 'public', 'signin.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'signup.html',
+      template: path.resolve(__dirname, 'public', 'signup.html')
+    }),
   ],
   module: {
     rules: [
