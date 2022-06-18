@@ -1,6 +1,7 @@
 node_modules 
 coverage
 dist
+.parcel-cache
 
 # local env files
 .env.local
