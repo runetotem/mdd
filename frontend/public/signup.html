@@ -16,34 +16,41 @@
     <section class="cadastro introducao">
       <div class="container">
         <h1>Cadastro</h1>
-        <form id="form_cadastro" method="post" class="cadastro_form grid-8 " action="">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" required>
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" required>
-          <legend>Departamento</legend>
-          <input type="checkbox" id="departamento_infantil" name="departamento_infantil" value="infantil">
-          <label for="departamento_infantil">Infantil</label>
-          <input type="checkbox" id="departamento_adolescentes" name="departamento_adolescentes" value="adolescentes">
-          <label for="departamento_adolescentes">180</label>
-          <input type="checkbox" id="departamento_jovens" name="departamento_jovens" value="jovens">
-          <label for="departamento_jovens">Jovens</label>
-          <input type="checkbox" id="departamento_homens" name="departamento_homens" value="homens">
-          <label for="departamento_homens">Homens</label>
-          <input type="checkbox" id="departamento_mulheres" name="departamento_mulheres" value="mulheres">
-          <label for="departamento_mulheres">Mulheres</label>
-          <input type="checkbox" id="departamento_mais-vividos" name="departamento_mais-vividos" value="vividos">
-          <label for="departamento_mais-vividos">Mais vividos</label>
-          <label for="telefone">Telefone</label>
-          <input type="text" id="telefone" name="telefone">
+        <div>
+          <form id="form_cadastro" method="post" class="cadastro_form grid-8 " action="">
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required>
+              <label for="telefone">Telefone</label>
+              <input type="text" id="telefone" name="telefone">
+            </div>
+            <div>
+              <legend>Departamento</legend>
+              <input type="checkbox" id="departamento_infantil" name="departamento_infantil" value="infantil">
+              <label for="departamento_infantil">Infantil</label>
+              <input type="checkbox" id="departamento_adolescentes" name="departamento_adolescentes" value="adolescentes">
+              <label for="departamento_adolescentes">180</label>
+              <input type="checkbox" id="departamento_jovens" name="departamento_jovens" value="jovens">
+              <label for="departamento_jovens">Jovens</label>
+              <input type="checkbox" id="departamento_homens" name="departamento_homens" value="homens">
+              <label for="departamento_homens">Homens</label>
+              <input type="checkbox" id="departamento_mulheres" name="departamento_mulheres" value="mulheres">
+              <label for="departamento_mulheres">Mulheres</label>
+              <input type="checkbox" id="departamento_mais-vividos" name="departamento_mais-vividos" value="vividos">
+              <label for="departamento_mais-vividos">Mais vividos</label>
+            </div>
+        
 
-          <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
-          <input type="text" class="nao-aparece" name="leaveblank">
-          <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-          <input type="text" class="nao-aparece" name="dontchange" value="http://">
+            <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+            <input type="text" class="nao-aparece" name="leaveblank">
+            <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+            <input type="text" class="nao-aparece" name="dontchange" value="http://">
 
 
-        </form>
+          </form>
+        </div>
       </div>
     </section>
 
