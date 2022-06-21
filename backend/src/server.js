@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = require('./routes')
 
-app = express()
+const app = express()
 
 app.get('/', (request, response) => {
   response.json({ message: 'Online'})
