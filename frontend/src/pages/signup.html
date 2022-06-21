@@ -10,41 +10,53 @@
     <section class="cadastro introducao">
       <div class="container">
         <h1>Cadastro</h1>
-        <div>
-          <form id="form_cadastro" method="post" class="cadastro_form grid-8 " action="">
-            <div>
-              <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome" required>
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" required>
-              <label for="telefone">Telefone</label>
-              <input type="text" id="telefone" name="telefone">
-            </div>
-            <div>
-              <legend>Departamento</legend>
+        
+        <form id="form_cadastro" method="post" class="cadastro_form grid-8 " action="">
+          <div class="form-row">
+            <label class="form-row-label" for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            <label class="form-row-label" for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <label class="form-row-label" for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+          </div>
+          <div class="form-row">
+            <legend class="form-row-label">Departamento</legend>
+            <span>
               <input type="checkbox" id="departamento_infantil" name="departamento_infantil" value="infantil">
-              <label for="departamento_infantil">Infantil</label>
+              <label class="checklabel" for="departamento_infantil">Infantil</label>
+            </span>
+            <span>
               <input type="checkbox" id="departamento_adolescentes" name="departamento_adolescentes" value="adolescentes">
               <label for="departamento_adolescentes">180</label>
+            </span>
+            <span>
               <input type="checkbox" id="departamento_jovens" name="departamento_jovens" value="jovens">
               <label for="departamento_jovens">Jovens</label>
+            </span>
+            <span>
               <input type="checkbox" id="departamento_homens" name="departamento_homens" value="homens">
               <label for="departamento_homens">Homens</label>
+            </span>
+            <span>
               <input type="checkbox" id="departamento_mulheres" name="departamento_mulheres" value="mulheres">
               <label for="departamento_mulheres">Mulheres</label>
+            </span>
+            <span>
               <input type="checkbox" id="departamento_mais-vividos" name="departamento_mais-vividos" value="vividos">
               <label for="departamento_mais-vividos">Mais vividos</label>
-            </div>
+            </span>
+          </div>
+      
+
+          <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+          <input type="text" class="nao-aparece" name="leaveblank">
+          <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+          <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+
+        </form>
         
-
-            <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
-            <input type="text" class="nao-aparece" name="leaveblank">
-            <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-            <input type="text" class="nao-aparece" name="dontchange" value="http://">
-
-
-          </form>
-        </div>
       </div>
     </section>
 

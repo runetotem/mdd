@@ -1,4 +1,33 @@
+.cadastro {
+  height: auto;
+  padding-bottom: 75px;
+}
+
 .cadastro_form {
+  width: 100%;
   display: flex;
-  background-color: aqua;
-} 
+}
+
+.cadastro_form input {
+  background: #424242;
+  color: ivory;
+}
+
+.form-row {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-row-label {
+  font-weight: 600;
+  margin-top: 15px;
+  color: ivory;
+  text-transform: uppercase;
+}
+
+.form-row span {
+  text-align: start;
+  margin-left: 50px;
+}
